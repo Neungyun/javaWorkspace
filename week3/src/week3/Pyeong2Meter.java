@@ -17,5 +17,6 @@ public class Pyeong2Meter {
 		double pyeong = scan.nextDouble();
 		double sqMeter = (SIX * ja) * (SIX * ja) * pyeong;
 		System.out.printf("%.2f pyeong = %.2f m^2 %n", pyeong, sqMeter);
+		System.exit(0);
 	}
 }
